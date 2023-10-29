@@ -1,7 +1,11 @@
 import "./widgetSm.css";
 import { Visibility } from "@material-ui/icons";
+import { useEffect } from "react";
 
 export default function WidgetSm() {
+  useEffect(()=>{
+
+  }, [])
   return (
     <div className="widgetSm">
       <span className="widgetSmTitle">New Join Members</span>
