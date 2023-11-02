@@ -4,9 +4,7 @@ import { useEffect } from "react";
 
 export default function WidgetSm() {
   useEffect(()=>{
-    const user = () => {
-      
-    }
+    
 
   }, [])
   return (
