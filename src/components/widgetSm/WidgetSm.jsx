@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 export default function WidgetSm() {
   useEffect(()=>{
-    console.log('we ae so')
+    console.log('we')
 
   }, [])
   return (
