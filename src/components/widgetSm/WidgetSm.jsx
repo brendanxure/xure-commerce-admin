@@ -1,8 +1,10 @@
 import "./widgetSm.css";
 import { Visibility } from "@material-ui/icons";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function WidgetSm() {
+  const [users, setUsers] = useState([])
+  
   useEffect(()=>{
     console.log('we')
 
