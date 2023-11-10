@@ -6,7 +6,9 @@ export default function WidgetSm() {
   const [users, setUsers] = useState([])
   
   useEffect(()=>{
-    console.log('we')
+    const fetchUsers = async()=> {
+      
+    }
 
   }, [])
   return (
