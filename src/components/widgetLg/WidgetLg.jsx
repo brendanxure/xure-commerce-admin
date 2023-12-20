@@ -5,7 +5,7 @@ import "./widgetLg.css";
 
 export default function WidgetLg() {
   const [orders, setOrders] = useState([])
-  console.log(orders)
+  
   
   useEffect(()=>{
     const fetchOrders = async()=> {
