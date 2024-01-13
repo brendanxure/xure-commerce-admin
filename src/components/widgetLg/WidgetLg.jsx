@@ -11,7 +11,7 @@ export default function WidgetLg() {
     const fetchOrders = async()=> {
       try {
         const response =  await axios.get(`${serverUrl}/api/order`)
-      console.log(response.data)
+      
       setOrders(response.data)
       } catch (error) {
         console.log(error)
